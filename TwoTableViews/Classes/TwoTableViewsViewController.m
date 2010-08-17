@@ -43,6 +43,9 @@
 	[secondTable setDataSource:secondController];
 	
 	[firstTable setDelegate:firstController];
+	[secondTable setDelegate:secondController];
+	firstController.view = firstController.tableView;
+	secondController.view = secondController.tableView;
 }
 
 

@@ -10,7 +10,7 @@
 
 
 @interface FirstTVContoller : UITableViewController <UITableViewDataSource, UITableViewDelegate>{
-
+	NSMutableArray *items;
 }
 
 @end

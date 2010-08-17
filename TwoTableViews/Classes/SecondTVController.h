@@ -10,7 +10,7 @@
 
 
 @interface SecondTVController : UITableViewController <UITableViewDataSource, UITableViewDelegate>{
-
+	int numberOfCells;
 }
 
 @end

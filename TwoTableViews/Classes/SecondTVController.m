@@ -10,6 +10,10 @@
 
 
 @implementation SecondTVController
+-(void) viewDidLoad
+{
+	numberOfCells = 20;
+}
 -(NSInteger) numberOfSectionsInTableView:(UITableView *)tableView
 {
 	return 1;
@@ -17,7 +21,7 @@
 
 -(NSInteger) tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section
 {
-	return 20;
+	return numberOfCells;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	
@@ -26,18 +30,25 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellSelectionStyleNone reuseIdentifier:@"MyIdentifier"];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
-    cell.textLabel.text = @"uuu";
+    cell.textLabel.text = [NSString stringWithFormat:@"2.%d",  indexPath.row];
 	
     return cell;
+}
+
+
+- (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath {
+	
+	return UITableViewCellEditingStyleDelete;
+    
 }
 - (void)tableView:(UITableView *)tv commitEditingStyle:(UITableViewCellEditingStyle)editingStyle 
 forRowAtIndexPath:(NSIndexPath *)indexPath {
 	
-    if(editingStyle == UITableViewCellEditingStyleDelete) {
-
-		
+    if(editingStyle == UITableViewCellEditingStyleDelete) {		
         //Delete the object from the table.
-        [self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+		numberOfCells -=1;
+        [tv deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationRight];
     }
 }
+
 @end
