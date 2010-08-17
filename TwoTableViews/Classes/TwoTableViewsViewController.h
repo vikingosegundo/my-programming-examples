@@ -10,7 +10,7 @@
 #import "FirstTVContoller.h"
 #import "SecondTVController.h"
 
-@interface TwoTableViewsViewController : UIViewController {
+@interface TwoTableViewsViewController : UIViewController{
 	FirstTVContoller *firstController;
 	SecondTVController *secondController;
 	IBOutlet UITableView *firstTable;

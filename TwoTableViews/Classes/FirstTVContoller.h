@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface FirstTVContoller : NSObject <UITableViewDataSource>{
+@interface FirstTVContoller : UITableViewController <UITableViewDataSource, UITableViewDelegate>{
 
 }
 

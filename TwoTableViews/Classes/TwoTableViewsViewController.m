@@ -39,8 +39,10 @@
 	if (secondController == nil) {
 		secondController = [[SecondTVController alloc] init];
 	}
-	[(UITableView *)firstTable setDataSource:firstController];
-	[(UITableView *)secondTable setDataSource:secondController];
+	[firstTable setDataSource:firstController];
+	[secondTable setDataSource:secondController];
+	
+	[firstTable setDelegate:firstController];
 }
 
 

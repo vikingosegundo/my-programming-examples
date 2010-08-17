@@ -30,4 +30,14 @@
 	
     return cell;
 }
+- (void)tableView:(UITableView *)tv commitEditingStyle:(UITableViewCellEditingStyle)editingStyle 
+forRowAtIndexPath:(NSIndexPath *)indexPath {
+	
+    if(editingStyle == UITableViewCellEditingStyleDelete) {
+
+		
+        //Delete the object from the table.
+        [self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    }
+}
 @end
