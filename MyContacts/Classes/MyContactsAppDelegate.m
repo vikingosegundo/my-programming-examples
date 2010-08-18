@@ -81,6 +81,8 @@
 
 
 - (void)dealloc {
+	[contacts release];
+	[fields release];
 	[navigationController release];
 	[window release];
 	[super dealloc];
@@ -93,7 +95,7 @@
 -(NSArray *)allPossibleFields
 {
 	if (fields == nil) {
-		fields = [[NSArray arrayWithObjects:@"street", @"number",@"city",@"province",@"country",nil] retain];
+		fields = [[[NSArray alloc] initWithObjects:@"street", @"number",@"city",@"province",@"country",nil] retain];
 	}
 	return fields;
 }

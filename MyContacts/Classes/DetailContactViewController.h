@@ -15,6 +15,6 @@
 }
 
 @property(nonatomic, retain) NSDictionary *contact;
-@property(nonatomic,retain) NSArray *possibleFields;
+@property(nonatomic, retain) NSArray *possibleFields;
 
 @end
