@@ -4,9 +4,9 @@
 <array>
 	<dict>
 		<key>name</key>
-		<string>Segundo</string>
-		<key>familyname</key>
 		<string>Vikingo</string>
+		<key>familyname</key>
+		<string>Segundo</string>
 		<key>street</key>
 		<string>Avenida Roca y Coranado</string>
 		<key>number</key>
