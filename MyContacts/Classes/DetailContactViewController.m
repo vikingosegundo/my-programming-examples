@@ -87,14 +87,11 @@
 			
 			
 			[[NSBundle mainBundle] loadNibNamed:@"DetailContactHeader" owner:self options:nil];
-			headerView = (DetailContactHeaderView *)headerView;
 			headerView.nameLabel.text = [NSString stringWithFormat:@"%@ %@", [contact objectForKey:@"name"], [contact objectForKey:@"familyname"]];
 			if ([[contact allKeys] containsObject:@"pictureurl"]) {
 				
 				headerView.avatarView.image = [UIImage imageNamed:[contact objectForKey:@"pictureurl"]];
-				
-				NSLog(@"%@", [UIImage imageNamed:[contact objectForKey:@"pictureurl"]]);
-			}
+				}
 			
 		}
 		return headerView;
