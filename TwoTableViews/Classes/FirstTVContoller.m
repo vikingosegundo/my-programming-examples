@@ -8,7 +8,7 @@
 
 #import "FirstTVContoller.h"
 #import "SecondTVController.h"
-
+#import "UIView+ViewCapture.h"
 
 @implementation FirstTVContoller
 
@@ -17,7 +17,7 @@
 -(void) loadView
 {
 	if (items == nil) {
-		items = [[NSMutableArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",@"6",@"6",@"8",@"9",@"10",nil] retain];
+		items = [[NSMutableArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",@"6",@"6",@"8",@"9",@"10",@"11",@"12",@"13",@"14",@"15",@"16",@"17",nil] retain];
 	}
 }
 
@@ -41,6 +41,7 @@
 }
 
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+	[(UIScrollView *)tableView saveScreenshotToPhotosAlbum];
 }
 
 - (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath {

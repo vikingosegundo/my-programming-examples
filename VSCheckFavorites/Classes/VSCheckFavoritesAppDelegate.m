@@ -1,33 +1,31 @@
 //
-//  MyContactsAppDelegate.m
-//  MyContacts
+//  VSCheckFavoritesAppDelegate.m
+//  VSCheckFavorites
 //
-//  Created by Manuel on 18.08.10.
-//  Copyright apparatschik 2010. All rights reserved.
+//  Created by Manuel on 02.11.10.
+//  Copyright 2010 apparatschik. All rights reserved.
 //
 
-#import "MyContactsAppDelegate.h"
-#import "RootViewController.h"
+#import "VSCheckFavoritesAppDelegate.h"
+#import "VSCheckFavoritesViewController.h"
 
-
-@implementation MyContactsAppDelegate
+@implementation VSCheckFavoritesAppDelegate
 
 @synthesize window;
-@synthesize navigationController;
+@synthesize viewController;
 
 
 #pragma mark -
 #pragma mark Application lifecycle
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {  
-	NSString* plistPath = [[NSBundle mainBundle] pathForResource:@"contacts" ofType:@"plist"];
-	contacts = [[NSArray arrayWithContentsOfFile:plistPath] retain];
-	// Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    // Add the navigation controller's view to the window and display.
-    [window addSubview:navigationController.view];
+    // Override point for customization after application launch.
+
+    // Add the view controller's view to the window and display.
+    [window addSubview:viewController.view];
     [window makeKeyAndVisible];
-	
+
     return YES;
 }
 
@@ -81,23 +79,10 @@
 
 
 - (void)dealloc {
-	[contacts release];
-	[fields release];
-	[navigationController release];
-	[window release];
-	[super dealloc];
+    [viewController release];
+    [window release];
+    [super dealloc];
 }
 
--(NSArray *) allContacts
-{
-	return contacts;
-}
--(NSArray *)allPossibleFields
-{
-	if (fields == nil) {
-		fields = [[NSArray alloc] initWithObjects:@"street", @"number",@"city",@"province",@"country",nil] ;
-	}
-	return fields;
-}
+
 @end
-
