@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -254,7 +256,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>185</real>
+								<real>437</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -273,11 +275,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>8</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {185, 760}}</string>
+							<string>{{0, 0}, {437, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -287,11 +291,11 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {202, 778}}</string>
+						<string>{{0, 0}, {454, 778}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>185</real>
+							<real>437</real>
 						</array>
 						<key>RubberWindowFrame</key>
 						<string>0 59 1440 819 0 0 1440 878 </string>
@@ -299,7 +303,7 @@
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>202pt</string>
+					<string>454pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -310,7 +314,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>640F81971218A3B3000E80E5</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>FirstTVContoller.m</string>
+								<string>SecondTVController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -318,22 +322,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>640F81981218A3B3000E80E5</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>FirstTVContoller.m</string>
+										<string>SecondTVController.h</string>
 										<key>_historyCapacity</key>
 										<integer>10</integer>
 										<key>bookmark</key>
-										<string>64FD07211280A27500702B7F</string>
+										<string>64FD08801280D7B200702B7F</string>
 										<key>history</key>
 										<array>
 											<string>640F81991218A3B3000E80E5</string>
 											<string>640F82051218AAA6000E80E5</string>
-											<string>64117B94121B502000B1ABD2</string>
-											<string>64117BA5121B506E00B1ABD2</string>
 											<string>6451D884127CDA3000420DD2</string>
 											<string>6451D8AC127CDC6B00420DD2</string>
-											<string>6451D8C3127CDEC200420DD2</string>
 											<string>6451D8C4127CDEC200420DD2</string>
-											<string>64FD071F1280A26B00702B7F</string>
+											<string>64FD087C1280D7B200702B7F</string>
+											<string>64FD087D1280D7B200702B7F</string>
+											<string>64FD087E1280D7B200702B7F</string>
+											<string>64FD087F1280D7B200702B7F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -347,7 +351,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1233, 400}}</string>
+								<string>{{0, 0}, {981, 400}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1440 819 0 0 1440 878 </string>
 							</dict>
@@ -362,8 +366,6 @@
 							<key>Tabs</key>
 							<array>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -374,7 +376,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1233, 346}}</string>
+										<string>{{10, 27}, {981, 346}}</string>
 										<key>RubberWindowFrame</key>
 										<string>0 59 1440 819 0 0 1440 878 </string>
 									</dict>
@@ -439,7 +441,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1233pt</string>
+					<string>981pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -653,7 +655,6 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>64FD07221280A27500702B7F</string>
-		<string>64FD07181280A24B00702B7F</string>
 		<string>64FD07191280A24B00702B7F</string>
 		<string>/Users/manuel/Coding/my-programming-examples/TwoTableViews/TwoTableViews.xcodeproj</string>
 	</array>
