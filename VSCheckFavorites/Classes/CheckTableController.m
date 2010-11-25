@@ -12,7 +12,7 @@
 @interface CheckTableController (private)
 
 
--(void)switchChanged:(UISwitch *)sender;
+-(void)switchChanged:(UIButton *)sender;
 
 @end
 
@@ -101,9 +101,19 @@
     }
     
     // Configure the cell...
-    UISwitch *aSwitch = [[[UISwitch alloc] init] autorelease];
-	[aSwitch addTarget:self action:@selector(switchChanged:) forControlEvents:UIControlEventValueChanged];
-	[cell.contentView addSubview:aSwitch];
+    //UISwitch *aSwitch = [[[UISwitch alloc] init] autorelease];
+	//[aSwitch addTarget:self action:@selector(switchChanged:) forControlEvents:UIControlEventValueChanged];
+	//[cell.contentView addSubview:aSwitch];
+	
+	UIImage *unselectedImage = [UIImage imageNamed:@"unselected.png"];
+	UIImage *selectedImage = [UIImage imageNamed:@"selected.png"];
+	UIButton *b = [UIButton buttonWithType:UIButtonTypeCustom];
+	[b setBackgroundImage:unselectedImage forState:UIControlStateNormal];
+	[b setBackgroundImage:selectedImage forState:UIControlStateSelected];
+	[b addTarget:self action:@selector(switchChanged:) forControlEvents:UIControlEventTouchUpInside];
+	[b setFrame:CGRectMake(0, 0, 40, 40)];
+	[cell.contentView addSubview:b];
+	
     return cell;
 }
 
@@ -185,13 +195,15 @@
 
 
 
--(void) switchChanged:(UISwitch *)sender
+-(void) switchChanged:(UIButton *)sender
 {
 	UITableViewCell* cell =  (UITableViewCell*)sender.superview.superview;
-	if([sender isOn]){
-		[self.delegate checkTriggeredAtIndex:[[self.tableView indexPathForCell:cell] row]];
-	} else {
+	if([sender isSelected]){
 		[self.delegate unCheckTriggeredAtIndex:[[self.tableView indexPathForCell:cell] row]];
+		[sender setSelected:NO];
+	} else {
+		[self.delegate checkTriggeredAtIndex:[[self.tableView indexPathForCell:cell] row]];
+		[sender setSelected:YES];
 	}
 
 }
