@@ -197,7 +197,7 @@
 
 
 
--(void) switchChanged:(UIButton *)sender
+-(void) buttonPressed:(UIButton *)sender
 {
 	UITableViewCell* cell =  (UITableViewCell*)sender.superview.superview;
 	if([sender isSelected]){

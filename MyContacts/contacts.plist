@@ -20,5 +20,23 @@
 		<key>pictureurl</key>
 		<string>vikingosegundo.png</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>Santa</string>
+		<key>familyname</key>
+		<string>Claus</string>
+		<key>street</key>
+		<string>Avenida Roca y Coranado</string>
+		<key>number</key>
+		<integer>20</integer>
+		<key>city</key>
+		<string>Santa Cruz de la Sierra</string>
+		<key>province</key>
+		<string>Santa Cruz</string>
+		<key>country</key>
+		<string>Finland</string>
+		<key>pictureurl</key>
+		<string>robot-santa.png</string>
+	</dict>
 </array>
 </plist>
