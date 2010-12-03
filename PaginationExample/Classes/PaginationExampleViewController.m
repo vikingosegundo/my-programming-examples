@@ -17,6 +17,7 @@
 @implementation PaginationExampleViewController
 @synthesize pagingScrollView;
 @synthesize pageViews;
+@synthesize pageControl;
 
 
 #pragma mark -
@@ -25,19 +26,13 @@
 
 
 - (CGSize)contentSizeForPagingScrollView {
-    // We have to use the paging scroll view's bounds to calculate the contentSize, for the same reason outlined above.
     CGRect bounds = pagingScrollView.bounds;
-    return CGSizeMake(bounds.size.width * [self.pageViews count] , bounds.size.height);
+    return CGSizeMake(bounds.size.width * [self.pageViews count] , bounds.size.height );
 } 
 
 
-
-
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-    	
 	
 	UIView *blueView = [[[UIView alloc] initWithFrame:CGRectZero] autorelease];
 	[blueView setBackgroundColor:[UIColor blueColor]];
@@ -51,43 +46,38 @@
 	self.pageViews = [NSArray arrayWithObjects:blueView, redView, yellowView,nil];
 	
 	for (UIView *view in self.pageViews) {
-		[view setFrame:CGRectMake([self.pageViews indexOfObject:view]*self.pagingScrollView.frame.size.width+5, 5, self.pagingScrollView.frame.size.width-10, self.pagingScrollView.frame.size.height-10.0)];
+		[view setFrame:CGRectMake([self.pageViews indexOfObject:view]*self.pagingScrollView.frame.size.width+5, 
+								  5, 
+								  self.pagingScrollView.frame.size.width-10, 
+								  self.pagingScrollView.frame.size.height-10.0)];
 		[self.pagingScrollView addSubview:view];
 		[view release];
 
 	}
 	
-	pagingScrollView.pagingEnabled = YES;
-    pagingScrollView.backgroundColor = [UIColor blackColor];
-    pagingScrollView.showsVerticalScrollIndicator = NO;
-    pagingScrollView.showsHorizontalScrollIndicator = NO;
-    pagingScrollView.contentSize = [self contentSizeForPagingScrollView];
-    pagingScrollView.delegate = self;
-    self.view = pagingScrollView;
+	self.pageControl.numberOfPages = [self.pageViews count];
+	self.pageControl.currentPage = 0;
+	
+	self.pagingScrollView.pagingEnabled = YES;
+    self.pagingScrollView.backgroundColor = [UIColor blackColor];
+    self.pagingScrollView.showsVerticalScrollIndicator = NO;
+    self.pagingScrollView.showsHorizontalScrollIndicator = NO;
+    self.pagingScrollView.contentSize = [self contentSizeForPagingScrollView];
+    self.pagingScrollView.delegate = self;
+    [self.view addSubview:pagingScrollView];
+	[self.view addSubview:self.pageControl];
 	
 }
 
-
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
 
 - (void)didReceiveMemoryWarning {
-	// Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-	
-	// Release any cached data, images, etc that aren't in use.
 }
 
 - (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
 	self.pageViews = nil;
+	self.pagingScrollView = nil;
+	self.pageControl = nil;
 }
 
 
@@ -95,5 +85,10 @@
     [super dealloc];
 }
 
-
+-(void) scrollViewDidScroll:(UIScrollView *)scrollView
+{
+	CGFloat pageWidth = scrollView.frame.size.width;
+    int page = floor((scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
+	self.pageControl.currentPage = page;
+}
 @end

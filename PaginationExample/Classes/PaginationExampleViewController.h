@@ -11,8 +11,10 @@
 @interface PaginationExampleViewController : UIViewController <UIScrollViewDelegate> {
 	UIScrollView *pagingScrollView;
 	NSArray *pageViews;
+	UIPageControl *pageControl;
 }
 @property (retain) IBOutlet UIScrollView *pagingScrollView;
+@property (retain) IBOutlet UIPageControl *pageControl;
 
 @end
 
