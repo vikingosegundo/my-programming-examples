@@ -10,11 +10,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     selectedIndexPath = nil;
-    articles = [[NSDictionary dictionaryWithObject:[NSArray arrayWithObjects:@ "one", @ "two", @ "three",
-                                                    @ "four", @ "five", @ "six",
-                                                    @ "seven", @ "eight", @ "nine",
-                                                    @ "ten", @ "eleven", nil]
-                 forKey:@ "title"] retain];
+    articles = [[NSDictionary dictionaryWithObject:[NSArray arrayWithObjects:@"one", @"two", @"three",
+                                                    @"four", @"five", @"six",
+                                                    @"seven", @"eight", @"nine",
+                                                    @"ten", @"eleven", nil]
+                 forKey:@"title"] retain];
 }
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
@@ -56,7 +56,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString * MyIdentifier = @ "MyIdentifier";
+    static NSString * MyIdentifier = @"MyIdentifier";
     UITableViewCell * cell = [self.tableView dequeueReusableCellWithIdentifier:MyIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:MyIdentifier] autorelease];
