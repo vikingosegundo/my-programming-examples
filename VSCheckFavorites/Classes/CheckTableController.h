@@ -17,6 +17,5 @@
 
 @interface CheckTableController : UITableViewController {
 }
-@property(nonatomic,retain) NSMutableArray *array;
 @property(nonatomic,retain) id<CheckTableControllerDelegate> delegate;
 @end
