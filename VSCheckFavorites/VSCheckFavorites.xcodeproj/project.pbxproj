@@ -62,12 +62,12 @@
 			children = (
 				64FD07291280A40100702B7F /* ShowFavoritesTableController.h */,
 				64FD072A1280A40100702B7F /* ShowFavoritesTableController.m */,
+				64FD073C1280A56700702B7F /* CheckTableController.h */,
+				64FD073D1280A56700702B7F /* CheckTableController.m */,
 				1D3623240D0F684500981E51 /* VSCheckFavoritesAppDelegate.h */,
 				1D3623250D0F684500981E51 /* VSCheckFavoritesAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* VSCheckFavoritesViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* VSCheckFavoritesViewController.m */,
-				64FD073C1280A56700702B7F /* CheckTableController.h */,
-				64FD073D1280A56700702B7F /* CheckTableController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

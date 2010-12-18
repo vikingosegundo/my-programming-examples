@@ -8,7 +8,6 @@
 
 #import "FirstTVContoller.h"
 #import "SecondTVController.h"
-#import "UIView+ViewCapture.h"
 
 @implementation FirstTVContoller
 
@@ -41,7 +40,6 @@
 }
 
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-	[(UIScrollView *)tableView saveScreenshotToPhotosAlbum];
 }
 
 - (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath {

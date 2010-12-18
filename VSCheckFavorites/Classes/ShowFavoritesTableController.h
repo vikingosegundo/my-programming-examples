@@ -14,5 +14,5 @@
 @interface ShowFavoritesTableController : UITableViewController <CheckTableControllerDelegate> {
 	
 }
-@property(nonatomic,retain)NSMutableArray *data;;
+@property(nonatomic,retain)NSMutableArray *data;
 @end

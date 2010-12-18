@@ -50,9 +50,7 @@
 		[b setFrame:CGRectMake(0, 0, 40, 40)];
 		[cell.contentView addSubview:b];
     }
-	
-	
-	
+		
     return cell;
 }
 
