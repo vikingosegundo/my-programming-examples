@@ -91,7 +91,7 @@
 	}
 	cell.selectedBackgroundView = [[[UIImageView alloc] init] autorelease];
 	UIImage *img = [UIImage imageNamed:@"bg.png"];
-	((UIImageView*)cell.selectedBackgroundView).image = img;
+	[(UIImageView*)[cell selectedBackgroundView] setImage:img];
 		
     return cell;
 }
