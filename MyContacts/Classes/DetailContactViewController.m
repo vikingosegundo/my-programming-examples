@@ -89,7 +89,9 @@
 	{
 		view.backgroundColor = [UIColor clearColor];
 	}
-	
+	cell.selectedBackgroundView = [[[UIImageView alloc] init] autorelease];
+	UIImage *img = [UIImage imageNamed:@"bg.png"];
+	((UIImageView*)cell.selectedBackgroundView).image = img;
 		
     return cell;
 }

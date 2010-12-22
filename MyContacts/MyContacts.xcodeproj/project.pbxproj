@@ -22,6 +22,7 @@
 		64117C4D121B5ABC00B1ABD2 /* DetailContactHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64117C4C121B5ABC00B1ABD2 /* DetailContactHeader.xib */; };
 		64117DB0121B6AD400B1ABD2 /* vikingosegundo.png in Resources */ = {isa = PBXBuildFile; fileRef = 64117DAF121B6AD400B1ABD2 /* vikingosegundo.png */; };
 		64227EFA12A0EC4E00531A4A /* robot-santa.png in Resources */ = {isa = PBXBuildFile; fileRef = 64227EF912A0EC4E00531A4A /* robot-santa.png */; };
+		643ACA6D12C2A96F00203528 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 643ACA6C12C2A96F00203528 /* bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		64117C4C121B5ABC00B1ABD2 /* DetailContactHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailContactHeader.xib; sourceTree = "<group>"; };
 		64117DAF121B6AD400B1ABD2 /* vikingosegundo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vikingosegundo.png; sourceTree = "<group>"; };
 		64227EF912A0EC4E00531A4A /* robot-santa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "robot-santa.png"; sourceTree = "<group>"; };
+		643ACA6C12C2A96F00203528 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MyContacts-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MyContacts-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				643ACA6C12C2A96F00203528 /* bg.png */,
 				64227EF912A0EC4E00531A4A /* robot-santa.png */,
 				64117DAF121B6AD400B1ABD2 /* vikingosegundo.png */,
 				64117BD3121B539E00B1ABD2 /* contacts.plist */,
@@ -189,6 +192,7 @@
 				64117C4D121B5ABC00B1ABD2 /* DetailContactHeader.xib in Resources */,
 				64117DB0121B6AD400B1ABD2 /* vikingosegundo.png in Resources */,
 				64227EFA12A0EC4E00531A4A /* robot-santa.png in Resources */,
+				643ACA6D12C2A96F00203528 /* bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
