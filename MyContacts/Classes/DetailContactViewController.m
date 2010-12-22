@@ -42,7 +42,6 @@
     return [[contact allKeys] count]-3;
 }
 
-
 -(CGFloat) tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
 	if (section == 0) {
@@ -83,7 +82,15 @@
 	id key = [self.possibleFields objectAtIndex:indexPath.row];
 	cell.textLabel.text = [NSString stringWithFormat:@"%@", key];
 	cell.detailTextLabel.text = [NSString stringWithFormat:@"%@", [contact objectForKey:key]];
-    
+
+	cell.backgroundView = [[[UIView alloc] initWithFrame:CGRectZero] autorelease];
+	cell.backgroundView.backgroundColor = [UIColor whiteColor];
+	for (UIView* view in cell.contentView.subviews) 
+	{
+		view.backgroundColor = [UIColor clearColor];
+	}
+	
+		
     return cell;
 }
 
@@ -95,7 +102,6 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	[self.tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
-
 
 #pragma mark -
 #pragma mark Memory management

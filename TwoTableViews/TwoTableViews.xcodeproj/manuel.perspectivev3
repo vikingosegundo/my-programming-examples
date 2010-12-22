@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Debug</string>
+	<string>Project</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -295,6 +295,8 @@
 							<string>MainColumn</string>
 							<real>437</real>
 						</array>
+						<key>RubberWindowFrame</key>
+						<string>0 59 1440 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -305,6 +307,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -322,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>10</integer>
 										<key>bookmark</key>
-										<string>6478B4DD12BCB44C00FAB769</string>
+										<string>6478B5F712BD032B00FAB769</string>
 										<key>history</key>
 										<array>
 											<string>640F82051218AAA6000E80E5</string>
@@ -332,7 +336,7 @@
 											<string>6478B4CB12BCB43C00FAB769</string>
 											<string>6478B4CC12BCB43C00FAB769</string>
 											<string>6478B4CD12BCB43C00FAB769</string>
-											<string>6478B4DB12BCB44C00FAB769</string>
+											<string>6478B53312BCF4BA00FAB769</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -347,6 +351,8 @@
 							<dict>
 								<key>Frame</key>
 								<string>{{0, 0}, {981, 390}}</string>
+								<key>RubberWindowFrame</key>
+								<string>0 59 1440 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -424,6 +430,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {981, 356}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -496,8 +504,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
@@ -509,8 +515,6 @@
 					<dict>
 						<key>Frame</key>
 						<string>{{0, 0}, {1440, 330}}</string>
-						<key>RubberWindowFrame</key>
-						<string>0 59 1440 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -585,11 +589,7 @@
 							</array>
 							<key>Frame</key>
 							<string>{{702, 0}, {738, 215}}</string>
-							<key>RubberWindowFrame</key>
-							<string>0 59 1440 819 0 0 1440 878 </string>
 						</dict>
-						<key>RubberWindowFrame</key>
-						<string>0 59 1440 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -653,7 +653,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>6478B4DE12BCB44C00FAB769</string>
 		<string>6478B4DF12BCB44C00FAB769</string>
 		<string>6478B4D712BCB43E00FAB769</string>
 		<string>/Users/manuel/Coding/my-programming-examples/TwoTableViews/TwoTableViews.xcodeproj</string>
