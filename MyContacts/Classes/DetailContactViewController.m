@@ -9,6 +9,14 @@
 #import "DetailContactViewController.h"
 #import "DetailContactHeaderView.h"
 #import "MyContactsAppDelegate.h"
+
+@interface DetailContactViewController ()
+
+@property(nonatomic, retain) NSArray *possibleFields;
+
+@end
+
+
 @implementation DetailContactViewController
 @synthesize contact;
 
@@ -23,6 +31,12 @@
 
 	self.possibleFields = [(MyContactsAppDelegate *)[[UIApplication sharedApplication] delegate] allPossibleFields];
 	
+}
+
+-(void) viewWillAppear:(BOOL)animated
+{
+	[super viewWillAppear:animated];
+	self.tableView.frame = CGRectMake(-10, self.tableView.frame.origin.y, 360, self.tableView.frame.size.height);
 }
 
 
@@ -76,20 +90,23 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
+		
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:CellIdentifier] autorelease];
+		
     }
+
     
 	id key = [self.possibleFields objectAtIndex:indexPath.row];
 	cell.textLabel.text = [NSString stringWithFormat:@"%@", key];
 	cell.detailTextLabel.text = [NSString stringWithFormat:@"%@", [contact objectForKey:key]];
 
-	cell.backgroundView = [[[UIView alloc] initWithFrame:CGRectZero] autorelease];
+	cell.backgroundView = [[[UIView alloc] initWithFrame:cell.frame] autorelease];
 	cell.backgroundView.backgroundColor = [UIColor whiteColor];
 	for (UIView* view in cell.contentView.subviews) 
 	{
 		view.backgroundColor = [UIColor clearColor];
 	}
-	cell.selectedBackgroundView = [[[UIImageView alloc] init] autorelease];
+	cell.selectedBackgroundView = [[[UIImageView alloc] initWithFrame:cell.frame] autorelease];
 	UIImage *img = [UIImage imageNamed:@"bg.png"];
 	[(UIImageView*)[cell selectedBackgroundView] setImage:img];
 		

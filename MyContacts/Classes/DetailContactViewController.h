@@ -11,10 +11,9 @@
 
 @interface DetailContactViewController : UITableViewController {
 	IBOutlet DetailContactHeaderView *headerView;
-	
+	NSArray *possibleFields;	
 }
 
 @property(nonatomic, retain) NSDictionary *contact;
-@property(nonatomic, retain) NSArray *possibleFields;
 
 @end
