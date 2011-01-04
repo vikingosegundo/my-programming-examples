@@ -6,18 +6,20 @@
 
 -(void) viewDidLoad
 {
-	self.tableView = nil;
-	self.tableView = [[[UITableView alloc] initWithFrame:[[UIScreen mainScreen] bounds] style:UITableViewStyleGrouped] autorelease];
+	self.tableView = nil;	
+	UITableView *tv = [[UITableView alloc] initWithFrame:[[UIScreen mainScreen] bounds] style:UITableViewStyleGrouped];
+	self.tableView = tv; 
+	[tv release];
 }
+
 
 -(void) viewDidUnload
 {
-	[self.tableView release];
+	[self.tableView release];	
 	[super viewDidUnload];
 }
 
-
-- (void)dealloc {
+- (void) dealloc {
     [super dealloc];
 }
 
