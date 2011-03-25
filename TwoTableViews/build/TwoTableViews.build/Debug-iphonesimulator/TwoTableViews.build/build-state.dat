@@ -1,12 +1,12 @@
 TTwoTableViews
 v7
 r0
-t314356812.299823
+t322790270.990418
 cCheck dependencies
 cProcessInfoPlistFile /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/Info.plist TwoTableViews-Info.plist
 cCompileXIB /Users/manuel/Coding/my-programming-examples/TwoTableViews/MainWindow.xib
 cCompileXIB /Users/manuel/Coding/my-programming-examples/TwoTableViews/TwoTableViewsViewController.xib
-cProcessPCH /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-fqqzkigrdkbipqbgwihgqedrkazm/TwoTableViews_Prefix.pch.gch TwoTableViews_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-dnteakmcrpjlksfvsesyvbkiwcfg/TwoTableViews_Prefix.pch.gch TwoTableViews_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/main.o /Users/manuel/Coding/my-programming-examples/TwoTableViews/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsAppDelegate.o /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsViewController.o /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -80,6 +80,36 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1
 c000000004C6242840000000001E228C0
 t1281507972
 s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
 
 N/Users/manuel/Coding/iPhone/TwoTableViews/Classes/FirstTVContoller.h
 c000000004C686A7800000000000000F9
@@ -232,9 +262,9 @@ s306
 i<Foundation/Foundation.h>
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/FirstTVContoller.m
-c000000004D0C7CC80000000000000737
-t1292664008
-s1847
+c000000004D8D2B2A0000000000000776
+t1301097258
+s1910
 i"FirstTVContoller.h"
 i"SecondTVController.h"
 
@@ -245,9 +275,9 @@ s306
 i<Foundation/Foundation.h>
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/SecondTVController.m
-c000000004C6B18EC0000000000000608
-t1282087148
-s1544
+c000000004D8D2BF00000000000000664
+t1301097456
+s1636
 i"SecondTVController.h"
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsAppDelegate.h
@@ -283,9 +313,9 @@ t1281911227
 s20081
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/TwoTableViewsViewController.xib
-c000000004C6B1A060000000000004D94
-t1282087430
-s19860
+c000000004D8D2BF80000000000004F65
+t1301097464
+s20325
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/TwoTableViews_Prefix.pch
 c000000004C6869BB00000000000000C3
@@ -308,11 +338,11 @@ s781
 i"UIView+ViewCapture.h"
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app
-t1292664012
+t1301097470
 s238
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app.dSYM
-t1292664012
+t1301097470
 s102
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/Info.plist
@@ -328,20 +358,20 @@ t1281911784
 s8
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews
-t1292664012
-s26308
+t1301097470
+s26480
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViewsViewController.nib
-t1286222567
-s1938
+t1301097470
+s1224
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/FirstTVContoller.o
-t1292664012
-s46992
+t1301097366
+s50244
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/SecondTVController.o
-t1292663958
-s44284
+t1301097470
+s47868
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViews.LinkFileList
 c000000004CD06AD50000000000000347
@@ -349,19 +379,19 @@ t1288727253
 s839
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsAppDelegate.o
-t1292663957
-s48764
+t1301096888
+s51836
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsViewController.o
-t1292663957
-s38908
+t1301096889
+s41956
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/UIView+ViewCapture.o
 t1288480478
 s35800
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/main.o
-t1292663957
+t1301096888
 s6344
 
 N/Users/manuel/Coding/my-programming-examples/TwoTableViews/main.m
@@ -374,9 +404,13 @@ N/var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/Shared
 t1281913348
 s15232016
 
+N/var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-dnteakmcrpjlksfvsesyvbkiwcfg/TwoTableViews_Prefix.pch.gch
+t1301096888
+s15453392
+
 N/var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-fqqzkigrdkbipqbgwihgqedrkazm/TwoTableViews_Prefix.pch.gch
-t1292663957
-s15211536
+t2
+s0
 
 N/var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-gzohhxpynmpvjmdivompcpozfvkf/TwoTableViews_Prefix.pch.gch
 t1281911785
@@ -389,7 +423,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies314356812#314356812#0(0"0(0#1#0"8669308896#0"0#
+lSLF07#2@18"Check dependencies322790270#322790270#0(0"0(0#1#0"8660758848#0"0#
 
 CCompileC build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/FirstTVContoller.o /Users/manuel/Coding/iPhone/TwoTableViews/Classes/FirstTVContoller.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s303605097.448487
@@ -405,8 +439,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@76"Compile /Users/manuel/Coding/iPhone/TwoTableViews/Classes/FirstTVContoller.m303605097#303605097#0(0"0(0#0#68"/Users/manuel/Coding/iPhone/TwoTableViews/Classes/FirstTVContoller.m8619963456#2148"    cd /Users/manuel/Coding/iPhone/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -include /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-gzohhxpynmpvjmdivompcpozfvkf/TwoTableViews_Prefix.pch -c /Users/manuel/Coding/iPhone/TwoTableViews/Classes/FirstTVContoller.m -o /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/FirstTVContoller.o0#
 
 CCompileC build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/FirstTVContoller.o /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/FirstTVContoller.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314356812.049568
-e314356812.229450
+s322790166.806577
+e322790166.991305
 r1
 xCompileC
 xbuild/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/FirstTVContoller.o
@@ -415,7 +449,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/FirstTVContoller.m314356812#314356812#0(0"0(0#0#85"/Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/FirstTVContoller.m8648467360#2348"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -include /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-fqqzkigrdkbipqbgwihgqedrkazm/TwoTableViews_Prefix.pch -c /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/FirstTVContoller.m -o /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/FirstTVContoller.o0#
+lSLF07#2@93"Compile /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/FirstTVContoller.m322790166#322790166#0(0"0(0#0#85"/Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/FirstTVContoller.m8657423040#2348"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -include /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-dnteakmcrpjlksfvsesyvbkiwcfg/TwoTableViews_Prefix.pch -c /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/FirstTVContoller.m -o /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/FirstTVContoller.o0#
 
 CCompileC build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/FirstTVController.o /Users/manuel/Coding/iPhone/TwoTableViews/Classes/FirstTVController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -434,8 +468,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@78"Compile /Users/manuel/Coding/iPhone/TwoTableViews/Classes/SecondTVController.m303604970#303604971#0(0"0(0#0#70"/Users/manuel/Coding/iPhone/TwoTableViews/Classes/SecondTVController.m8615455552#2152"    cd /Users/manuel/Coding/iPhone/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -include /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-gzohhxpynmpvjmdivompcpozfvkf/TwoTableViews_Prefix.pch -c /Users/manuel/Coding/iPhone/TwoTableViews/Classes/SecondTVController.m -o /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/SecondTVController.o0#
 
 CCompileC build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/SecondTVController.o /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/SecondTVController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314356757.975177
-e314356758.088539
+s322790270.869534
+e322790270.941159
 r1
 xCompileC
 xbuild/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/SecondTVController.o
@@ -444,7 +478,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/SecondTVController.m314356757#314356758#0(0"0(0#0#87"/Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/SecondTVController.m8662852256#2352"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -include /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-fqqzkigrdkbipqbgwihgqedrkazm/TwoTableViews_Prefix.pch -c /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/SecondTVController.m -o /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/SecondTVController.o0#
+lSLF07#2@95"Compile /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/SecondTVController.m322790270#322790270#0(0"0(0#0#87"/Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/SecondTVController.m8654064480#2352"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -include /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-dnteakmcrpjlksfvsesyvbkiwcfg/TwoTableViews_Prefix.pch -c /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/SecondTVController.m -o /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/SecondTVController.o0#
 
 CCompileC build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsAppDelegate.o /Users/manuel/Coding/iPhone/TwoTableViews/Classes/TwoTableViewsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s303605097.332509
@@ -460,8 +494,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@84"Compile /Users/manuel/Coding/iPhone/TwoTableViews/Classes/TwoTableViewsAppDelegate.m303605097#303605097#0(0"0(0#0#76"/Users/manuel/Coding/iPhone/TwoTableViews/Classes/TwoTableViewsAppDelegate.m8611773184#2164"    cd /Users/manuel/Coding/iPhone/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -include /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-gzohhxpynmpvjmdivompcpozfvkf/TwoTableViews_Prefix.pch -c /Users/manuel/Coding/iPhone/TwoTableViews/Classes/TwoTableViewsAppDelegate.m -o /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsAppDelegate.o0#
 
 CCompileC build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsAppDelegate.o /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314356757.574228
-e314356757.975078
+s322789688.772434
+e322789688.955677
 r1
 xCompileC
 xbuild/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsAppDelegate.o
@@ -470,7 +504,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@101"Compile /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsAppDelegate.m314356757#314356757#0(0"0(0#0#93"/Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsAppDelegate.m8652045696#2364"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -include /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-fqqzkigrdkbipqbgwihgqedrkazm/TwoTableViews_Prefix.pch -c /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsAppDelegate.m -o /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsAppDelegate.o0#
+lSLF07#2@101"Compile /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsAppDelegate.m322789688#322789688#0(0"0(0#0#93"/Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsAppDelegate.m8629148672#2364"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -include /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-dnteakmcrpjlksfvsesyvbkiwcfg/TwoTableViews_Prefix.pch -c /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsAppDelegate.m -o /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsAppDelegate.o0#
 
 CCompileC build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsViewController.o /Users/manuel/Coding/iPhone/TwoTableViews/Classes/TwoTableViewsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s303605097.333613
@@ -486,8 +520,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@87"Compile /Users/manuel/Coding/iPhone/TwoTableViews/Classes/TwoTableViewsViewController.m303605097#303605097#0(0"0(0#0#79"/Users/manuel/Coding/iPhone/TwoTableViews/Classes/TwoTableViewsViewController.m8619674688#2170"    cd /Users/manuel/Coding/iPhone/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -include /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-gzohhxpynmpvjmdivompcpozfvkf/TwoTableViews_Prefix.pch -c /Users/manuel/Coding/iPhone/TwoTableViews/Classes/TwoTableViewsViewController.m -o /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsViewController.o0#
 
 CCompileC build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsViewController.o /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314356757.859629
-e314356757.952380
+s322789688.954230
+e322789689.092810
 r1
 xCompileC
 xbuild/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsViewController.o
@@ -496,7 +530,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@104"Compile /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsViewController.m314356757#314356757#0(0"0(0#0#96"/Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsViewController.m8685857792#2370"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -include /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-fqqzkigrdkbipqbgwihgqedrkazm/TwoTableViews_Prefix.pch -c /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsViewController.m -o /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsViewController.o0#
+lSLF07#2@104"Compile /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsViewController.m322789688#322789689#0(0"0(0#0#96"/Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsViewController.m8644525408#2370"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -include /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-dnteakmcrpjlksfvsesyvbkiwcfg/TwoTableViews_Prefix.pch -c /Users/manuel/Coding/my-programming-examples/TwoTableViews/Classes/TwoTableViewsViewController.m -o /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViewsViewController.o0#
 
 CCompileC build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/UIView+ViewCapture.o /Users/manuel/Coding/my-programming-examples/TwoTableViews/UIView+ViewCapture.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s310173278.142352
@@ -525,8 +559,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@56"Compile /Users/manuel/Coding/iPhone/TwoTableViews/main.m303604585#303604586#0(0"0(0#0#48"/Users/manuel/Coding/iPhone/TwoTableViews/main.m8611672128#2116"    cd /Users/manuel/Coding/iPhone/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -include /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-gzohhxpynmpvjmdivompcpozfvkf/TwoTableViews_Prefix.pch -c /Users/manuel/Coding/iPhone/TwoTableViews/main.m -o /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/main.o0#
 
 CCompileC build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/main.o /Users/manuel/Coding/my-programming-examples/TwoTableViews/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314356757.572874
-e314356757.859523
+s322789688.771042
+e322789688.954124
 r1
 xCompileC
 xbuild/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/main.o
@@ -535,7 +569,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/manuel/Coding/my-programming-examples/TwoTableViews/main.m314356757#314356757#0(0"0(0#0#65"/Users/manuel/Coding/my-programming-examples/TwoTableViews/main.m8653593568#2316"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -include /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-fqqzkigrdkbipqbgwihgqedrkazm/TwoTableViews_Prefix.pch -c /Users/manuel/Coding/my-programming-examples/TwoTableViews/main.m -o /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/main.o0#
+lSLF07#2@73"Compile /Users/manuel/Coding/my-programming-examples/TwoTableViews/main.m322789688#322789688#0(0"0(0#0#65"/Users/manuel/Coding/my-programming-examples/TwoTableViews/main.m8631921984#2316"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -include /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-dnteakmcrpjlksfvsesyvbkiwcfg/TwoTableViews_Prefix.pch -c /Users/manuel/Coding/my-programming-examples/TwoTableViews/main.m -o /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/manuel/Coding/iPhone/TwoTableViews/MainWindow.xib
 s303604584.556822
@@ -557,12 +591,12 @@ CCompileXIB /Users/manuel/Coding/my-programming-examples/TwoTableViews/MainWindo
 r0
 
 CCompileXIB /Users/manuel/Coding/my-programming-examples/TwoTableViews/TwoTableViewsViewController.xib
-s307915366.265526
-e307915367.378258
+s322790270.482774
+e322790270.868955
 r1
 xCompileXIB
 x/Users/manuel/Coding/my-programming-examples/TwoTableViews/TwoTableViewsViewController.xib
-lSLF07#2@42"CompileXIB TwoTableViewsViewController.xib307915366#307915367#0(0"0(0#0#90"/Users/manuel/Coding/my-programming-examples/TwoTableViews/TwoTableViewsViewController.xib8689426816#732"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViewsViewController.nib /Users/manuel/Coding/my-programming-examples/TwoTableViews/TwoTableViewsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+lSLF07#2@42"CompileXIB TwoTableViewsViewController.xib322790270#322790270#0(0"0(0#0#90"/Users/manuel/Coding/my-programming-examples/TwoTableViews/TwoTableViewsViewController.xib8656093248#732"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViewsViewController.nib /Users/manuel/Coding/my-programming-examples/TwoTableViews/TwoTableViewsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CGenerateDSYMFile /Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app.dSYM /Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews
 s303605097.632074
@@ -574,13 +608,13 @@ x/Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/TwoTableV
 lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/TwoTableViews.app.dSYM build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews303605097#303605097#0(0"0(0#0#101"/Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews8619138336#472"    cd /Users/manuel/Coding/iPhone/TwoTableViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews -o /Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app.dSYM0#
 
 CGenerateDSYMFile /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app.dSYM /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews
-s314356812.276503
-e314356812.296506
+s322790270.967909
+e322790270.987447
 r1
 xGenerateDSYMFile
 x/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app.dSYM
 x/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews
-lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/TwoTableViews.app.dSYM build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews314356812#314356812#0(0"0(0#0#118"/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews8646970912#523"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews -o /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app.dSYM0#
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/TwoTableViews.app.dSYM build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews322790270#322790270#0(0"0(0#0#118"/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews8642550752#523"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews -o /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app.dSYM0#
 
 CLd /Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews normal i386
 s303605097.608275
@@ -593,14 +627,14 @@ xi386
 lSLF07#2@106"Link /Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews303605097#303605097#0(0"0(0#0#0"8611808128#1007"    cd /Users/manuel/Coding/iPhone/TwoTableViews    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator -F/Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator -filelist /Users/manuel/Coding/iPhone/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViews.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews0#
 
 CLd /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews normal i386
-s314356812.229564
-e314356812.276404
+s322790270.941255
+e322790270.967806
 r1
 xLd
 x/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews
 xnormal
 xi386
-lSLF07#2@123"Link /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews314356812#314356812#0(0"0(0#0#0"8645255296#1092"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -F/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -filelist /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViews.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews0#
+lSLF07#2@123"Link /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews322790270#322790270#0(0"0(0#0#0"8644881536#1092"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -F/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -filelist /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/Objects-normal/i386/TwoTableViews.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/TwoTableViews0#
 
 CProcessInfoPlistFile /Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app/Info.plist TwoTableViews-Info.plist
 s303604584.481429
@@ -626,6 +660,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@35"Precompile TwoTableViews_Prefix.pch303606147#303606148#0(0"0(0#0#83"/Users/manuel/Coding/my-programming-examples/TwoTableViews/TwoTableViews_Prefix.pch8613732576#2169"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -c /Users/manuel/Coding/my-programming-examples/TwoTableViews/TwoTableViews_Prefix.pch -o /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-cndjiswohuiczjdptuxjysqrusyv/TwoTableViews_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-dnteakmcrpjlksfvsesyvbkiwcfg/TwoTableViews_Prefix.pch.gch TwoTableViews_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s322789686.917429
+e322789688.770806
+r1
+xProcessPCH
+x/var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-dnteakmcrpjlksfvsesyvbkiwcfg/TwoTableViews_Prefix.pch.gch
+xTwoTableViews_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile TwoTableViews_Prefix.pch322789686#322789688#0(0"0(0#0#83"/Users/manuel/Coding/my-programming-examples/TwoTableViews/TwoTableViews_Prefix.pch8632281344#2182"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-generated-files.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-own-target-headers.hmap -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-all-target-headers.hmap -iquote /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/TwoTableViews-project-headers.hmap -F/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/include -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources/i386 -I/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/TwoTableViews.build/Debug-iphonesimulator/TwoTableViews.build/DerivedSources -c /Users/manuel/Coding/my-programming-examples/TwoTableViews/TwoTableViews_Prefix.pch -o /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-dnteakmcrpjlksfvsesyvbkiwcfg/TwoTableViews_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/JH/JHiSrgcaHjWa02UFC3JzmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TwoTableViews_Prefix-fqqzkigrdkbipqbgwihgqedrkazm/TwoTableViews_Prefix.pch.gch TwoTableViews_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s314356752.574297
@@ -662,10 +709,10 @@ x/Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/TwoTableV
 lSLF07#2@93"Touch /Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app303605097#303605097#0(0"0(0#0#0"8618991968#352"    cd /Users/manuel/Coding/iPhone/TwoTableViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/manuel/Coding/iPhone/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app0#
 
 CTouch /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app
-s314356812.296630
-e314356812.299788
+s322790270.987544
+e322790270.990377
 r1
 xTouch
 x/Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app
-lSLF07#2@110"Touch /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app314356812#314356812#0(0"0(0#0#0"8692631136#386"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app0#
+lSLF07#2@110"Touch /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app322790270#322790270#0(0"0(0#0#0"8639175520#386"    cd /Users/manuel/Coding/my-programming-examples/TwoTableViews    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/manuel/Coding/my-programming-examples/TwoTableViews/build/Debug-iphonesimulator/TwoTableViews.app0#
 
