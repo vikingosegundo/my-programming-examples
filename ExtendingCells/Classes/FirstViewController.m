@@ -9,7 +9,7 @@
 @implementation FirstViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
-    selectedIndexPath = nil;
+    selectedIndexPath = [[NSIndexPath indexPathForRow:-1 inSection:-1] retain];
     articles = [[NSDictionary dictionaryWithObject:[NSArray arrayWithObjects:@"one", @"two", @"three",
                                                     @"four", @"five", @"six",
                                                     @"seven", @"eight", @"nine",
@@ -61,6 +61,7 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:MyIdentifier] autorelease];
     }
+	
     id key = [[articles allKeys] objectAtIndex:indexPath.section];
     cell.textLabel.text = [[articles objectForKey:key] objectAtIndex:indexPath.row];
     return cell;
