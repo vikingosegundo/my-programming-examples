@@ -33,10 +33,22 @@
 	
 }
 
+
 -(void) viewWillAppear:(BOOL)animated
 {
 	[super viewWillAppear:animated];
-	self.tableView.frame = CGRectMake(-10, self.tableView.frame.origin.y, 360, self.tableView.frame.size.height);
+	if (headerView == nil) {
+		
+		
+		[[NSBundle mainBundle] loadNibNamed:@"DetailContactHeader" owner:self options:nil];
+		headerView.nameLabel.text = [NSString stringWithFormat:@"%@ %@", [contact objectForKey:@"name"], [contact objectForKey:@"familyname"]];
+		if ([[contact allKeys] containsObject:@"pictureurl"]) {
+			headerView.avatarView.image = [UIImage imageNamed:[contact objectForKey:@"pictureurl"]];
+		}
+		
+	}
+	[self.tableView setTableHeaderView: headerView];
+	
 }
 
 
@@ -47,7 +59,7 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 1;
+    return 2;
 }
 
 
@@ -56,32 +68,6 @@
     return [[contact allKeys] count]-3;
 }
 
--(CGFloat) tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{
-	if (section == 0) {
-		return 80.0;
-	}
-	return 0;
-}
-
--(UIView *) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
-{
-	if (section == 0) {
-		if (headerView == nil) {
-			
-			
-			[[NSBundle mainBundle] loadNibNamed:@"DetailContactHeader" owner:self options:nil];
-			headerView.nameLabel.text = [NSString stringWithFormat:@"%@ %@", [contact objectForKey:@"name"], [contact objectForKey:@"familyname"]];
-			if ([[contact allKeys] containsObject:@"pictureurl"]) {
-				headerView.avatarView.image = [UIImage imageNamed:[contact objectForKey:@"pictureurl"]];
-			}
-			
-		}
-		return headerView;
-	}
-	
-	return nil;
-}
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -100,20 +86,31 @@
 	cell.textLabel.text = [NSString stringWithFormat:@"%@", key];
 	cell.detailTextLabel.text = [NSString stringWithFormat:@"%@", [contact objectForKey:key]];
 
-	cell.backgroundView = [[[UIView alloc] initWithFrame:cell.frame] autorelease];
-	cell.backgroundView.backgroundColor = [UIColor whiteColor];
-	for (UIView* view in cell.contentView.subviews) 
-	{
-		view.backgroundColor = [UIColor clearColor];
-	}
-	cell.selectedBackgroundView = [[[UIImageView alloc] initWithFrame:cell.frame] autorelease];
-	UIImage *img = [UIImage imageNamed:@"bg.png"];
-	[(UIImageView*)[cell selectedBackgroundView] setImage:img];
+//	cell.backgroundView = [[[UIView alloc] initWithFrame:cell.frame] autorelease];
+//	cell.backgroundView.backgroundColor = [UIColor whiteColor];
+//	for (UIView* view in cell.contentView.subviews) 
+//	{
+//		view.backgroundColor = [UIColor clearColor];
+//	}
+//	cell.selectedBackgroundView = [[[UIImageView alloc] initWithFrame:cell.frame] autorelease];
+//	UIImage *img = [UIImage imageNamed:@"bg.png"];
+//	[(UIImageView*)[cell selectedBackgroundView] setImage:img];
 		
     return cell;
 }
 
+-(CGFloat) tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+	return 44.0;
+}
 
+-(UIView *) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+	UILabel *l = [[[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 44)] autorelease];
+	l.backgroundColor = [UIColor clearColor];
+	l.text= @"I am a Section Header";
+	return l;
+}
 
 #pragma mark -
 #pragma mark Table view delegate
