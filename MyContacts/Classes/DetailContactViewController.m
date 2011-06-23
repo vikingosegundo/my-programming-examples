@@ -11,11 +11,8 @@
 #import "MyContactsAppDelegate.h"
 
 @interface DetailContactViewController ()
-
 @property(nonatomic, retain) NSArray *possibleFields;
-
 @end
-
 
 @implementation DetailContactViewController
 @synthesize contact;
@@ -28,9 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
 	self.possibleFields = [(MyContactsAppDelegate *)[[UIApplication sharedApplication] delegate] allPossibleFields];
-	
 }
 
 
@@ -38,33 +33,25 @@
 {
 	[super viewWillAppear:animated];
 	if (headerView == nil) {
-		
-		
 		[[NSBundle mainBundle] loadNibNamed:@"DetailContactHeader" owner:self options:nil];
 		headerView.nameLabel.text = [NSString stringWithFormat:@"%@ %@", [contact objectForKey:@"name"], [contact objectForKey:@"familyname"]];
 		if ([[contact allKeys] containsObject:@"pictureurl"]) {
 			headerView.avatarView.image = [UIImage imageNamed:[contact objectForKey:@"pictureurl"]];
 		}
-		
 	}
 	[self.tableView setTableHeaderView: headerView];
 	
 }
 
-
-
-
 #pragma mark -
 #pragma mark Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    // Return the number of sections.
     return 2;
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    // Return the number of rows in the section.
     return [[contact allKeys] count]-3;
 }
 
@@ -76,11 +63,8 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-		
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:CellIdentifier] autorelease];
-		
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:CellIdentifier] autorelease];		
     }
-
     
 	id key = [self.possibleFields objectAtIndex:indexPath.row];
 	cell.textLabel.text = [NSString stringWithFormat:@"%@", key];
@@ -127,11 +111,6 @@
     [super didReceiveMemoryWarning];
     
 }
-
-- (void)viewDidUnload {
-
-}
-
 
 - (void)dealloc {
 	[headerView release];

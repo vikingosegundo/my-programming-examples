@@ -10,8 +10,6 @@
 
 
 @interface DetailContactHeaderView : UIView {
-	
-
 }
 @property (nonatomic, retain) IBOutlet UILabel *nameLabel;
 @property (nonatomic, retain) IBOutlet UIImageView *avatarView;
