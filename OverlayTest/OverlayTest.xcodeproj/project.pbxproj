@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64FC4D8014333EED00D8528E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FC4D7F14333EED00D8528E /* UIKit.framework */; };
+		64FC4D8214333EED00D8528E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FC4D8114333EED00D8528E /* Foundation.framework */; };
+		64FC4D8414333EED00D8528E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FC4D8314333EED00D8528E /* CoreGraphics.framework */; };
+		64FC4D8A14333EED00D8528E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64FC4D8814333EED00D8528E /* InfoPlist.strings */; };
+		64FC4D8C14333EED00D8528E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FC4D8B14333EED00D8528E /* main.m */; };
+		64FC4D9014333EED00D8528E /* OverlayTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FC4D8F14333EED00D8528E /* OverlayTestAppDelegate.m */; };
+		64FC4D9314333EED00D8528E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FC4D9114333EED00D8528E /* MainWindow.xib */; };
+		64FC4D9614333EED00D8528E /* OverlayTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FC4D9514333EED00D8528E /* OverlayTestViewController.m */; };
+		64FC4D9914333EED00D8528E /* OverlayTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FC4D9714333EED00D8528E /* OverlayTestViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64FC4D7B14333EEC00D8528E /* OverlayTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverlayTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FC4D7F14333EED00D8528E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64FC4D8114333EED00D8528E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64FC4D8314333EED00D8528E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64FC4D8714333EED00D8528E /* OverlayTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OverlayTest-Info.plist"; sourceTree = "<group>"; };
+		64FC4D8914333EED00D8528E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64FC4D8B14333EED00D8528E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64FC4D8D14333EED00D8528E /* OverlayTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OverlayTest-Prefix.pch"; sourceTree = "<group>"; };
+		64FC4D8E14333EED00D8528E /* OverlayTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverlayTestAppDelegate.h; sourceTree = "<group>"; };
+		64FC4D8F14333EED00D8528E /* OverlayTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayTestAppDelegate.m; sourceTree = "<group>"; };
+		64FC4D9214333EED00D8528E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		64FC4D9414333EED00D8528E /* OverlayTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverlayTestViewController.h; sourceTree = "<group>"; };
+		64FC4D9514333EED00D8528E /* OverlayTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayTestViewController.m; sourceTree = "<group>"; };
+		64FC4D9814333EED00D8528E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OverlayTestViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64FC4D7814333EEC00D8528E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FC4D8014333EED00D8528E /* UIKit.framework in Frameworks */,
+				64FC4D8214333EED00D8528E /* Foundation.framework in Frameworks */,
+				64FC4D8414333EED00D8528E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64FC4D7014333EEC00D8528E = {
+			isa = PBXGroup;
+			children = (
+				64FC4D8514333EED00D8528E /* OverlayTest */,
+				64FC4D7E14333EEC00D8528E /* Frameworks */,
+				64FC4D7C14333EEC00D8528E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64FC4D7C14333EEC00D8528E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64FC4D7B14333EEC00D8528E /* OverlayTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64FC4D7E14333EEC00D8528E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64FC4D7F14333EED00D8528E /* UIKit.framework */,
+				64FC4D8114333EED00D8528E /* Foundation.framework */,
+				64FC4D8314333EED00D8528E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64FC4D8514333EED00D8528E /* OverlayTest */ = {
+			isa = PBXGroup;
+			children = (
+				64FC4D8E14333EED00D8528E /* OverlayTestAppDelegate.h */,
+				64FC4D8F14333EED00D8528E /* OverlayTestAppDelegate.m */,
+				64FC4D9114333EED00D8528E /* MainWindow.xib */,
+				64FC4D9414333EED00D8528E /* OverlayTestViewController.h */,
+				64FC4D9514333EED00D8528E /* OverlayTestViewController.m */,
+				64FC4D9714333EED00D8528E /* OverlayTestViewController.xib */,
+				64FC4D8614333EED00D8528E /* Supporting Files */,
+			);
+			path = OverlayTest;
+			sourceTree = "<group>";
+		};
+		64FC4D8614333EED00D8528E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64FC4D8714333EED00D8528E /* OverlayTest-Info.plist */,
+				64FC4D8814333EED00D8528E /* InfoPlist.strings */,
+				64FC4D8B14333EED00D8528E /* main.m */,
+				64FC4D8D14333EED00D8528E /* OverlayTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64FC4D7A14333EEC00D8528E /* OverlayTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64FC4D9C14333EED00D8528E /* Build configuration list for PBXNativeTarget "OverlayTest" */;
+			buildPhases = (
+				64FC4D7714333EEC00D8528E /* Sources */,
+				64FC4D7814333EEC00D8528E /* Frameworks */,
+				64FC4D7914333EEC00D8528E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverlayTest;
+			productName = OverlayTest;
+			productReference = 64FC4D7B14333EEC00D8528E /* OverlayTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64FC4D7214333EEC00D8528E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = apparatschik;
+			};
+			buildConfigurationList = 64FC4D7514333EEC00D8528E /* Build configuration list for PBXProject "OverlayTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64FC4D7014333EEC00D8528E;
+			productRefGroup = 64FC4D7C14333EEC00D8528E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64FC4D7A14333EEC00D8528E /* OverlayTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64FC4D7914333EEC00D8528E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FC4D8A14333EED00D8528E /* InfoPlist.strings in Resources */,
+				64FC4D9314333EED00D8528E /* MainWindow.xib in Resources */,
+				64FC4D9914333EED00D8528E /* OverlayTestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64FC4D7714333EEC00D8528E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FC4D8C14333EED00D8528E /* main.m in Sources */,
+				64FC4D9014333EED00D8528E /* OverlayTestAppDelegate.m in Sources */,
+				64FC4D9614333EED00D8528E /* OverlayTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64FC4D8814333EED00D8528E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64FC4D8914333EED00D8528E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64FC4D9114333EED00D8528E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64FC4D9214333EED00D8528E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		64FC4D9714333EED00D8528E /* OverlayTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64FC4D9814333EED00D8528E /* en */,
+			);
+			name = OverlayTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64FC4D9A14333EED00D8528E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64FC4D9B14333EED00D8528E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64FC4D9D14333EED00D8528E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OverlayTest/OverlayTest-Prefix.pch";
+				INFOPLIST_FILE = "OverlayTest/OverlayTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64FC4D9E14333EED00D8528E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OverlayTest/OverlayTest-Prefix.pch";
+				INFOPLIST_FILE = "OverlayTest/OverlayTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64FC4D7514333EEC00D8528E /* Build configuration list for PBXProject "OverlayTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FC4D9A14333EED00D8528E /* Debug */,
+				64FC4D9B14333EED00D8528E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64FC4D9C14333EED00D8528E /* Build configuration list for PBXNativeTarget "OverlayTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64FC4D9D14333EED00D8528E /* Debug */,
+				64FC4D9E14333EED00D8528E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64FC4D7214333EEC00D8528E /* Project object */;
+}
