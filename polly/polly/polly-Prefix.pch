@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'polly' target in the 'polly' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif

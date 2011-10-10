@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		645B02E814429DD9008FD8A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645B02E714429DD9008FD8A8 /* Foundation.framework */; };
+		645B02EB14429DD9008FD8A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 645B02EA14429DD9008FD8A8 /* main.m */; };
+		645B02EF14429DD9008FD8A8 /* polly.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 645B02EE14429DD9008FD8A8 /* polly.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		645B02E114429DD9008FD8A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				645B02EF14429DD9008FD8A8 /* polly.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		645B02E314429DD9008FD8A8 /* polly */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = polly; sourceTree = BUILT_PRODUCTS_DIR; };
+		645B02E714429DD9008FD8A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		645B02EA14429DD9008FD8A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		645B02ED14429DD9008FD8A8 /* polly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "polly-Prefix.pch"; sourceTree = "<group>"; };
+		645B02EE14429DD9008FD8A8 /* polly.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = polly.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		645B02E014429DD9008FD8A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645B02E814429DD9008FD8A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		645B02D814429DD9008FD8A8 = {
+			isa = PBXGroup;
+			children = (
+				645B02E914429DD9008FD8A8 /* polly */,
+				645B02E614429DD9008FD8A8 /* Frameworks */,
+				645B02E414429DD9008FD8A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		645B02E414429DD9008FD8A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				645B02E314429DD9008FD8A8 /* polly */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		645B02E614429DD9008FD8A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				645B02E714429DD9008FD8A8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		645B02E914429DD9008FD8A8 /* polly */ = {
+			isa = PBXGroup;
+			children = (
+				645B02EA14429DD9008FD8A8 /* main.m */,
+				645B02EE14429DD9008FD8A8 /* polly.1 */,
+				645B02EC14429DD9008FD8A8 /* Supporting Files */,
+			);
+			path = polly;
+			sourceTree = "<group>";
+		};
+		645B02EC14429DD9008FD8A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				645B02ED14429DD9008FD8A8 /* polly-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		645B02E214429DD9008FD8A8 /* polly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 645B02F214429DD9008FD8A8 /* Build configuration list for PBXNativeTarget "polly" */;
+			buildPhases = (
+				645B02DF14429DD9008FD8A8 /* Sources */,
+				645B02E014429DD9008FD8A8 /* Frameworks */,
+				645B02E114429DD9008FD8A8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = polly;
+			productName = polly;
+			productReference = 645B02E314429DD9008FD8A8 /* polly */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		645B02DA14429DD9008FD8A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = apparatschik;
+			};
+			buildConfigurationList = 645B02DD14429DD9008FD8A8 /* Build configuration list for PBXProject "polly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 645B02D814429DD9008FD8A8;
+			productRefGroup = 645B02E414429DD9008FD8A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				645B02E214429DD9008FD8A8 /* polly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		645B02DF14429DD9008FD8A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645B02EB14429DD9008FD8A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		645B02F014429DD9008FD8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		645B02F114429DD9008FD8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		645B02F314429DD9008FD8A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "polly/polly-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		645B02F414429DD9008FD8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "polly/polly-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		645B02DD14429DD9008FD8A8 /* Build configuration list for PBXProject "polly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645B02F014429DD9008FD8A8 /* Debug */,
+				645B02F114429DD9008FD8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		645B02F214429DD9008FD8A8 /* Build configuration list for PBXNativeTarget "polly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645B02F314429DD9008FD8A8 /* Debug */,
+				645B02F414429DD9008FD8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 645B02DA14429DD9008FD8A8 /* Project object */;
+}
