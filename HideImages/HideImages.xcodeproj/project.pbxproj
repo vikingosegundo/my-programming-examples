@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64724B7E147BF5ED00E1942D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64724B7D147BF5ED00E1942D /* UIKit.framework */; };
+		64724B80147BF5ED00E1942D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64724B7F147BF5ED00E1942D /* Foundation.framework */; };
+		64724B82147BF5ED00E1942D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64724B81147BF5ED00E1942D /* CoreGraphics.framework */; };
+		64724B88147BF5ED00E1942D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64724B86147BF5ED00E1942D /* InfoPlist.strings */; };
+		64724B8A147BF5ED00E1942D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64724B89147BF5ED00E1942D /* main.m */; };
+		64724B8E147BF5ED00E1942D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64724B8D147BF5ED00E1942D /* AppDelegate.m */; };
+		64724B91147BF5ED00E1942D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64724B90147BF5ED00E1942D /* ViewController.m */; };
+		64724B94147BF5ED00E1942D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64724B92147BF5ED00E1942D /* ViewController.xib */; };
+		64724B9B147BF74400E1942D /* vikingosegundo.png in Resources */ = {isa = PBXBuildFile; fileRef = 64724B9A147BF74400E1942D /* vikingosegundo.png */; };
+		64724B9D147BF74F00E1942D /* robot-santa.png in Resources */ = {isa = PBXBuildFile; fileRef = 64724B9C147BF74F00E1942D /* robot-santa.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64724B79147BF5ED00E1942D /* HideImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64724B7D147BF5ED00E1942D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64724B7F147BF5ED00E1942D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64724B81147BF5ED00E1942D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64724B85147BF5ED00E1942D /* HideImages-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HideImages-Info.plist"; sourceTree = "<group>"; };
+		64724B87147BF5ED00E1942D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64724B89147BF5ED00E1942D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64724B8B147BF5ED00E1942D /* HideImages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HideImages-Prefix.pch"; sourceTree = "<group>"; };
+		64724B8C147BF5ED00E1942D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64724B8D147BF5ED00E1942D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64724B8F147BF5ED00E1942D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64724B90147BF5ED00E1942D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64724B93147BF5ED00E1942D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		64724B9A147BF74400E1942D /* vikingosegundo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vikingosegundo.png; sourceTree = "<group>"; };
+		64724B9C147BF74F00E1942D /* robot-santa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "robot-santa.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64724B76147BF5ED00E1942D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64724B7E147BF5ED00E1942D /* UIKit.framework in Frameworks */,
+				64724B80147BF5ED00E1942D /* Foundation.framework in Frameworks */,
+				64724B82147BF5ED00E1942D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64724B6E147BF5ED00E1942D = {
+			isa = PBXGroup;
+			children = (
+				64724B83147BF5ED00E1942D /* HideImages */,
+				64724B7C147BF5ED00E1942D /* Frameworks */,
+				64724B7A147BF5ED00E1942D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64724B7A147BF5ED00E1942D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64724B79147BF5ED00E1942D /* HideImages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64724B7C147BF5ED00E1942D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64724B7D147BF5ED00E1942D /* UIKit.framework */,
+				64724B7F147BF5ED00E1942D /* Foundation.framework */,
+				64724B81147BF5ED00E1942D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64724B83147BF5ED00E1942D /* HideImages */ = {
+			isa = PBXGroup;
+			children = (
+				64724B8C147BF5ED00E1942D /* AppDelegate.h */,
+				64724B8D147BF5ED00E1942D /* AppDelegate.m */,
+				64724B8F147BF5ED00E1942D /* ViewController.h */,
+				64724B90147BF5ED00E1942D /* ViewController.m */,
+				64724B92147BF5ED00E1942D /* ViewController.xib */,
+				64724B84147BF5ED00E1942D /* Supporting Files */,
+			);
+			path = HideImages;
+			sourceTree = "<group>";
+		};
+		64724B84147BF5ED00E1942D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64724B9C147BF74F00E1942D /* robot-santa.png */,
+				64724B9A147BF74400E1942D /* vikingosegundo.png */,
+				64724B85147BF5ED00E1942D /* HideImages-Info.plist */,
+				64724B86147BF5ED00E1942D /* InfoPlist.strings */,
+				64724B89147BF5ED00E1942D /* main.m */,
+				64724B8B147BF5ED00E1942D /* HideImages-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64724B78147BF5ED00E1942D /* HideImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64724B97147BF5ED00E1942D /* Build configuration list for PBXNativeTarget "HideImages" */;
+			buildPhases = (
+				64724B75147BF5ED00E1942D /* Sources */,
+				64724B76147BF5ED00E1942D /* Frameworks */,
+				64724B77147BF5ED00E1942D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HideImages;
+			productName = HideImages;
+			productReference = 64724B79147BF5ED00E1942D /* HideImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64724B70147BF5ED00E1942D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = apparatschik;
+			};
+			buildConfigurationList = 64724B73147BF5ED00E1942D /* Build configuration list for PBXProject "HideImages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64724B6E147BF5ED00E1942D;
+			productRefGroup = 64724B7A147BF5ED00E1942D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64724B78147BF5ED00E1942D /* HideImages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64724B77147BF5ED00E1942D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64724B88147BF5ED00E1942D /* InfoPlist.strings in Resources */,
+				64724B94147BF5ED00E1942D /* ViewController.xib in Resources */,
+				64724B9B147BF74400E1942D /* vikingosegundo.png in Resources */,
+				64724B9D147BF74F00E1942D /* robot-santa.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64724B75147BF5ED00E1942D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64724B8A147BF5ED00E1942D /* main.m in Sources */,
+				64724B8E147BF5ED00E1942D /* AppDelegate.m in Sources */,
+				64724B91147BF5ED00E1942D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64724B86147BF5ED00E1942D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64724B87147BF5ED00E1942D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64724B92147BF5ED00E1942D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64724B93147BF5ED00E1942D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64724B95147BF5ED00E1942D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64724B96147BF5ED00E1942D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64724B98147BF5ED00E1942D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HideImages/HideImages-Prefix.pch";
+				INFOPLIST_FILE = "HideImages/HideImages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64724B99147BF5ED00E1942D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HideImages/HideImages-Prefix.pch";
+				INFOPLIST_FILE = "HideImages/HideImages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64724B73147BF5ED00E1942D /* Build configuration list for PBXProject "HideImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64724B95147BF5ED00E1942D /* Debug */,
+				64724B96147BF5ED00E1942D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64724B97147BF5ED00E1942D /* Build configuration list for PBXNativeTarget "HideImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64724B98147BF5ED00E1942D /* Debug */,
+				64724B99147BF5ED00E1942D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64724B70147BF5ED00E1942D /* Project object */;
+}

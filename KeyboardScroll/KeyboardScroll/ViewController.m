@@ -96,9 +96,16 @@
 	if (UI_USER_INTERFACE_IDIOM()== UIUserInterfaceIdiomPhone) {
 		NSDictionary *userInfo = [notification userInfo];
 		CGSize size = [[userInfo objectForKey: UIKeyboardFrameEndUserInfoKey] CGRectValue].size;
-		CGRect newTableViewFrame = CGRectMake(self.tableView.frame.origin.x, self.tableView.frame.origin.y, 
+		NSLog(@"%@", NSStringFromCGRect(self.tableView.frame));
+		CGRect newTableViewFrame = CGRectMake(self.tableView.frame.origin.x,
+											  self.tableView.frame.origin.y, 
 											  self.tableView.frame.size.width, self.tableView.frame.size.height - size.height);
 		self.tableView.frame = newTableViewFrame;
+		NSLog(@"%@", NSStringFromCGRect(self.tableView.frame));
+
+		
+		self.tableView.contentSize = CGSizeMake(self.tableView.contentSize.width, self.tableView.contentSize.height-size.height);
+
 		
 	}
 }
@@ -112,7 +119,9 @@
                                       self.tableView.frame.origin.y, 
                                       self.tableView.frame.size.width, 
                                       self.tableView.frame.size.height + size.height);
+	NSLog(@"%@", NSStringFromCGRect(self.tableView.frame));
 }
+
 
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
