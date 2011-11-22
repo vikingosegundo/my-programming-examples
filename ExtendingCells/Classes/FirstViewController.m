@@ -60,6 +60,7 @@
     UITableViewCell * cell = [self.tableView dequeueReusableCellWithIdentifier:MyIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:MyIdentifier] autorelease];
+		cell.textLabel.frame = CGRectMake(0, 0, cell.textLabel.frame.size.width, cell.textLabel.frame.size.height);
     }
 	
     id key = [[articles allKeys] objectAtIndex:indexPath.section];

@@ -39,7 +39,7 @@
 
 
 /*
- * 2.: Polymorphism via protocol	
+ * 2.: Polymorphism via formal protocol	
  */
 
 @protocol PrintProtocol <NSObject>
@@ -66,6 +66,10 @@
 }
 @end
 
+
+/*
+ * 3.: Polymorphism via informal protocol	
+ */
 @interface LastObject : NSObject
 -(void)print;
 @end
@@ -138,6 +142,7 @@ int main (int argc, const char * argv[])
 		[aUnknowObject2 print];
 	}
 	
+	//3.: Polymorphism via informal protocol	
 	//Does not conform to the protocol, but knows to handle the message
 	if ([lastObject respondsToSelector:@selector(print)]) {
 		[lastObject print];
