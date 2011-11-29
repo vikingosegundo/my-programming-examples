@@ -15,5 +15,5 @@
 }
 
 @property(nonatomic, retain) NSDictionary *contact;
-
+@property(nonatomic, retain) UIView *footerView;
 @end

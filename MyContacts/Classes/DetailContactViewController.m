@@ -18,7 +18,7 @@
 @synthesize contact;
 
 @synthesize possibleFields;
-
+@synthesize footerView = footerView_;
 #pragma mark -
 #pragma mark View lifecycle
 
@@ -39,7 +39,13 @@
 			headerView.avatarView.image = [UIImage imageNamed:[contact objectForKey:@"pictureurl"]];
 		}
 	}
+	
+	if (!self.footerView) {
+		self.footerView = [[[UILabel alloc] initWithFrame:headerView.frame] autorelease];
+		[(UILabel *)self.footerView setText:@"tableFooter"];
+	}
 	[self.tableView setTableHeaderView: headerView];
+	[self.tableView setTableFooterView:self.footerView];
 	
 }
 
@@ -116,6 +122,7 @@
 	[headerView release];
 	[contact release];
 	[possibleFields release];
+	[footerView_ release];
     [super dealloc];
 }
 

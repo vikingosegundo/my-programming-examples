@@ -85,10 +85,7 @@
 	} else {
 		for(UIView *v in self.imageViews)
 			[self.view addSubview:v];
-		[self.toggleButton setTitle:@"hide" forState:UIControlStateNormal];
-		
-	}
-	
-	
+		[self.toggleButton setTitle:@"hide" forState:UIControlStateNormal];		
+	}	
 }
 @end
